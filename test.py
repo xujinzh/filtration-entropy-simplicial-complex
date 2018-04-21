@@ -24,7 +24,7 @@ circle100 = circle100[['x1', 'x2']]
 # plt.show()
 
 tic = time.time()
-filtration_entropy(circle100, 0.0)
+filtration_entropy(circle100)
 toc = time.time()
 
 print("Total time consuming :" + str(toc - tic) + 's')

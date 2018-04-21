@@ -14,7 +14,7 @@ import pandas as pd
 import time
 
 
-def filtration_entropy(data, tail):
+def filtration_entropy(data, tail=0.0):
 
     """
     用以计算数据集的熵，并画出熵图
