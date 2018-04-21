@@ -15,7 +15,6 @@ import time
 
 
 def filtration_entropy(data, tail=0.0):
-
     """
     用以计算数据集的熵，并画出熵图
     :param data: 数据集data，以列表形式表示，每个元素为元组形式
