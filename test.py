@@ -19,7 +19,7 @@ from entropy import filtration_entropy
 circle100 = pd.read_csv('c100.csv')
 circle100 = circle100[['x1', 'x2']]
 # print(circle100.head())
-# plt.plot(circle100['x1'], circle100['x2'], 'k.')
+# plt.plot(circle100['x1'], circle100['x2'], 'k.')  # 画出数据的分布图
 # plt.title(u'circle with Guass noise')
 # plt.show()
 
