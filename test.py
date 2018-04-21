@@ -1,10 +1,10 @@
 #! usr/bin/env python
 # coding:utf-8
 
-'''
+"""
 @author: Jinzhong Xu
 @test
-'''
+"""
 
 
 import numpy as np
@@ -20,7 +20,7 @@ circle100 = pd.read_csv('c100.csv')
 circle100 = circle100[['x1', 'x2']]
 # print(circle100.head())
 # plt.plot(circle100['x1'], circle100['x2'], 'k.')
-# plt.title(u'带有高斯噪声的圆')
+# plt.title(u'circle with Guass noise')
 # plt.show()
 
 tic = time.time()
