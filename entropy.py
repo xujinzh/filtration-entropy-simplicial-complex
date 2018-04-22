@@ -49,8 +49,8 @@ def filtration_entropy(data, tail=0.0):
     #     print("Distance Matrix Convert to Distance Vector: {0}".format(distVector))  # test 打印距离向量
 
     plt.figure(figsize=(12, 8))
-    point_in_circle = [1] * len(data)  # 记录以每个点为圆心的圆不同半径包含的周围点的个数
-    entropy = [0] * (len(dist_vector))  # 不同半径时，计算得到的熵值
+    point_in_circle = np.array([1] * len(data))  # 记录以每个点为圆心的圆不同半径包含的周围点的个数
+    entropy = [0.0] * (len(dist_vector))  # 不同半径时，计算得到的熵值
 
     tic_circle = time.time()
     # 去除首尾两点后的距离向量画除的熵图
